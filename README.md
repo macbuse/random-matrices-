@@ -21,7 +21,7 @@ so I decided to **automate** things for the future.
 
 ## what you get?
 
-def rand_rank2(max_int=6):<br>
+def rand_rank2(max_int=6):
 
     ''' returns 
         A rank 2,  3x3 matrix
@@ -42,17 +42,15 @@ def rand_inv(high=3,
     
 def rand_diagonalisable(max_int=3, D=[1,2,3])->(np.array,np.array):
 
-''' returns 
+	''' returns 3x3 matrix M with
+	- integer coefficients in [-max_int,max_int]
+	- eigenvalues from the list D
 
-3x3 matrix M with
-- integer coefficients in [-max_int,max_int]
-- eigenvalues from the list D
-
-3x3 matrix A with
-- integer coefficients
-- M = A^{-1}DA
-
+	3x3 matrix A with
+	- integer coefficients
+	- M = A^{-1}DA
 '''
+
 ---
 
 Copyright 2022  Greg McShane (macbuse.github)
