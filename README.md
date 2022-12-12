@@ -15,6 +15,9 @@ This notebook attempts to solve the problem of the poor instructor/grader.
 I had to set [this exam](./CC2_MAT305.pdf) twice because of absences
 so I decided to **automate** things for the future.
 
+I will probably add a similar function for matrices that
+are easy to diagonalise.
+
 ---
 
 ## what you get?
