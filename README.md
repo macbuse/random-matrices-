@@ -12,6 +12,9 @@ This notebook attempts to solve the problem of the poor instructor/grader.
 - 3x3 invertible matrix with given determinant and hints on how to find its inverse
 - a function for rendering an np.array as a LaTex pmatrix
 
+I had to set [this exam](./CC2_MAT305.pdf) twice because of absences
+so I decided to **automate** things for the future.
+
 ---
 
 ## what you get?
