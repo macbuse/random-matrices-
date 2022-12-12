@@ -10,13 +10,12 @@ This notebook attempts to solve the problem of the poor instructor/grader who ne
 
 - 3x3 rank 2 matrix with basis vector for the kernel and equation $ax + by + cz = 0$ for the image
 - 3x3 invertible matrix with given determinant and hints on how to find its inverse
+- 3x3 invertible matrix with given eigenvalues and  diagonalizing basis
 - a function for rendering an np.array as a LaTeX pmatrix
 
 I had to set [this exam](./CC2_MAT305.pdf) twice because of absences
 so I decided to **automate** things for the future.
 
-I will probably add a similar function for matrices that
-are easy to diagonalise.
 
 ---
 
@@ -41,7 +40,19 @@ def rand_inv(high=3,
         see https://en.wikipedia.org/wiki/Bruhat_decomposition
        ''' 
     
+def rand_diagonalisable(max_int=3, D=[1,2,3])->(np.array,np.array):
 
+''' returns 
+
+3x3 matrix M with
+- integer coefficients in [-max_int,max_int]
+- eigenvalues from the list D
+
+3x3 matrix A with
+- integer coefficients
+- M = A^{-1}DA
+
+'''
 ---
 
 Copyright 2022  Greg McShane (macbuse.github)
