@@ -30,16 +30,16 @@ def rand_rank2(max_int=6):<br>
         V vector orthogonal to the image
     '''
 
-def rand_inv(high=3,<br>
+def rand_inv(high=3,
              D=[1,1,1])->np.array:<br>
     
-    ''' returns an invertible matrix with
+    ''' returns an invertible 3x3 matrix with
         - integer coefficients in the range [-high, high] 
         - determinant is the product of the elements of D
         - a list of row operations to put it in upper triangular form
         
         see https://en.wikipedia.org/wiki/Bruhat_decomposition
-        
+       ''' 
     
 
 ---
