@@ -6,11 +6,11 @@ take random integer coefficients without thinking
 so you get a matrix that isn't nice to work with.
 
 
-This notebook attempts to solve the problem of the poor instructor/grader.
+This notebook attempts to solve the problem of the poor instructor/grader who needs:
 
-- 3x3 rank 2 matrix with kernel and equation $ax + by + cz = 0$ for the image
+- 3x3 rank 2 matrix with basis vector for the kernel and equation $ax + by + cz = 0$ for the image
 - 3x3 invertible matrix with given determinant and hints on how to find its inverse
-- a function for rendering an np.array as a LaTex pmatrix
+- a function for rendering an np.array as a LaTeX pmatrix
 
 I had to set [this exam](./CC2_MAT305.pdf) twice because of absences
 so I decided to **automate** things for the future.
